@@ -13,7 +13,9 @@ export default function Banner({ scroll }) {
   const [iframeSrc, setIframeSrc] = useState("");
 
   async function getMovieData() {
-    let { data } = await axios.get(`http://localhost:5173/data/movieData.json`);
+    let { data } = await axios.get(
+      `http://localhost:5173/data/movieData.json`
+    );
     setMovies(data);
   }
 

@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Helmet from "react-helmet";
 import axios from "axios";
 import Card from "../Card/Card";
 import "./Schedule.css";
@@ -73,10 +72,6 @@ export default function Schedule() {
   }
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title></title>
-      </Helmet>
       <section id="schedule" className="schedule">
         <div className="container-fluid">
           <div className="row">
