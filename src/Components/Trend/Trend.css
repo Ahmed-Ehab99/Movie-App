@@ -1,0 +1,10 @@
+.trendSwiper .swiper {
+  padding-top: 50px;
+}
+
+.trendSwiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 240px;
+  height: auto;
+}

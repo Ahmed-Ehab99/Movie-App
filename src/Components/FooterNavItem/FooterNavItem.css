@@ -1,0 +1,38 @@
+footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .footer-top .footer-links ul i {
+  padding-right: 7px;
+  color: #d0d4fc;
+  font-size: 12px;
+  line-height: 0;
+}
+
+footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-top .footer-links ul:first-child {
+  padding-top: 0;
+}
+
+footer .footer-top .footer-links ul a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+footer .footer-top .footer-links ul a:hover {
+  color: var(--primary);
+}
